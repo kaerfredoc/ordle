@@ -1,0 +1,43 @@
+.redLetter {
+    color: red;
+}
+
+.yellowLetter {
+    background-color: yellow;
+}
+
+.greenLetter {
+    background-color: lime;
+}
+
+.greyLetter {
+    background-color: darkgrey;
+}
+
+.letterBox {
+    border: 1px solid;
+    margin: 0.2em;
+    padding: 0.5em;
+    min-width: 0.5em;
+    min-height: 0.5em;
+    display: inline-flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box {
+    border: 1px solid;
+    margin: 0.2em;
+    padding: 1em;
+    min-width: .8em;
+    min-height: .8em;
+    display: inline-flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row {
+    margin-left: 5px;
+    padding: 0.2em;
+    display: block;
+}

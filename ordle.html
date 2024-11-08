@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My App</title>
+    <script src='./answers.js'></script>
+    <script src='./word-list.js'></script>
+    <script src='./ordle.js'></script>
+    <link rel="stylesheet" href="./ordle.css">
+</head>
+<body onload="loadApp()">
+    <h1 id="title">I'm here</h1>
+    <div id="row0" class="row">
+        <span id="cell00" class="box"></span>
+        <span id="cell01" class="box"></span>
+        <span id="cell02" class="box"></span>
+        <span id="cell03" class="box"></span>
+        <span id="cell04" class="box"></span>
+    </div>
+    <div id="row1" class="row">
+        <span id="cell10" class="box"></span>
+        <span id="cell11" class="box"></span>
+        <span id="cell12" class="box"></span>
+        <span id="cell13" class="box"></span>
+        <span id="cell14" class="box"></span>
+    </div>
+    <div id="row2" class="row">
+        <span id="cell20" class="box"></span>
+        <span id="cell21" class="box"></span>
+        <span id="cell22" class="box"></span>
+        <span id="cell23" class="box"></span>
+        <span id="cell24" class="box"></span>
+    </div>
+    <div id="row3" class="row">
+        <span id="cell30" class="box"></span>
+        <span id="cell31" class="box"></span>
+        <span id="cell32" class="box"></span>
+        <span id="cell33" class="box"></span>
+        <span id="cell34" class="box"></span>
+    </div>
+    <div id="row4" class="row">
+        <span id="cell40" class="box"></span>
+        <span id="cell41" class="box"></span>
+        <span id="cell42" class="box"></span>
+        <span id="cell43" class="box"></span>
+        <span id="cell44" class="box"></span>
+    </div>
+    <div id="row5" class="row">
+        <span id="cell50" class="box"></span>
+        <span id="cell51" class="box"></span>
+        <span id="cell52" class="box"></span>
+        <span id="cell53" class="box"></span>
+        <span id="cell54" class="box"></span>
+    </div>
+    <div id="letters" style="display:block"></div>
+    <br><br>
+    <div id="guessSection">
+    <label class="redLetter" for="userGuess">Enter 5 Letter Word</label><input type="text" id="userGuess">
+    <button id='submitButton' onclick="handleSubmit()">Guess</button>
+    </div>
+    <div id='resetSection' hidden="true">
+        <button id='resetButton' onclick="document.location.reload()">New Game</button>
+    </div>
+</body>
+</html>
